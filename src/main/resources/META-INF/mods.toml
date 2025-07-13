@@ -1,7 +1,7 @@
 modLoader="javafml"
 loaderVersion="[41,)"
 issueTrackerURL="https://github.com/Lykrast/SheikahFont/issues"
-license="MIT License https://github.com/Lykrast/SheikahFont/blob/master/LICENSE"
+license="MIT License https://github.com/Lykrast/SheikahFont/blob/main/LICENSE"
 
 [[mods]]
 modId="sheikahfont"
@@ -9,7 +9,7 @@ version="${file.jarVersion}"
 displayName="Sheikah Font"
 displayURL="https://modrinth.com/mod/sheikah-font"
 logoFile="logo.png"
-credits="Darkhax for inspiration, zeldawiki.wiki for the translation key"
+credits="Darkhax for inspiration, zeldawiki.wiki for info on the cipher and high quality images"
 authors="Lykrast"
 description='''
 Adds the Sheikah alphabet from The Legend of Zelda: Breath of the Wild as a font and banner patterns.
@@ -24,6 +24,6 @@ Adds the Sheikah alphabet from The Legend of Zelda: Breath of the Wild as a font
 [[dependencies.sheikahfont]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19,]"
+    versionRange="[1.20.1,]"
     ordering="NONE"
     side="BOTH"
